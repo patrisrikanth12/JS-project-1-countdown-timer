@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h3{
+    color: rgb(73, 73, 73);
+}
+.container{
+    margin-top: 300px;;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.time-display{
+    display: flex;
+}
+
+.time-display-item{
+    margin: 20px;
+}
+
+.time-number{
+    font-size: 70px;
+}
+
+
+
+
+
